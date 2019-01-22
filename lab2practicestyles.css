@@ -1,0 +1,163 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 10px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    padding-bottom: 6px;
+    text-decoration: none;
+    color: #69696a;
+    font-weight: 550;
+}
+
+.hireUs {
+    display: flex;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 100vw;
+    justify-content: center;
+    height: 30px;
+}
+
+.title {
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+section {
+    border-left: #69696a solid;
+}
+
+p {
+    padding-left: 5px;
+}
+
+.bottomButton {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 100vw;
+    justify-content: center;
+    height: 30px;
+    padding: 5px;
+}
+
+.circleWrapper {
+    display: none;
+}
+
+@media only screen and (min-width: 480px) {
+    /*     
+    .menuLabels {
+        display: flex;
+        align-content: center;
+    } */
+    /* 
+    .hireUs {
+        display: inline-block;
+        width: 60px;
+    } */
+    body {
+        height: 100vh;
+        width: 100vw;
+
+    }
+    .hireUs {
+        display: inline-block;
+        margin-top: 5px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        justify-content: center;
+        height: 30px;
+        width: 90px;
+        padding: 0;
+    }
+        .navLinks {
+            flex-direction: row;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    a {
+        margin-right: 10px;
+    }
+        .circleWrapper {
+            position: relative;
+            /* width: 100%;
+            height: 100%; */
+            display: flex;
+        }
+        .circleOne {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            background-color: rgba(247, 136, 167, 0.6);
+            border-radius: 50%;
+            left: 75%;
+        }
+        .circleTwo {
+            width: 100px;
+            height: 100px;
+            background: rgba(207, 130, 213, 0.6);
+            border-radius: 50%;
+            position: absolute;
+            left: 85%;
+        }
+
+        .circleThree {
+            width: 150px;
+            height: 150px;
+            background: rgba(247, 193, 162, 0.7);
+            border-radius: 50%;
+            position: absolute;
+            left: 63%;
+            /* bottom: -167%; */
+        }
+        section {
+            width: 50%;
+        }
+        footer {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: flex-end;
+            position: absolute;
+            bottom: 28px;
+        }
+        .bottomButton {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            width: 90px;
+            /* justify-content: center; */
+            height: 30px;
+            padding: 5px;
+        
+        }
+    }
